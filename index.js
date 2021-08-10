@@ -20,7 +20,12 @@ Do the following:
    HINT: no function required
 */
 
-
+var votingAge = 18;
+if(votingAge===18){
+  console.log('true')
+} else {
+  console.log('false')
+}
 
 /*
 Task 1b - Values
@@ -32,6 +37,15 @@ Do the following:
 
    HINT: no function required
 */
+
+var varOne = 1;
+var varTwo = 2;
+
+if(varOne !== varTwo){
+  varOne++;
+}else {
+  console.log(varOne);
+}
 
 
 
@@ -48,9 +62,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
-
+var string = "1999";
+var stringConvert = parseInt(string);
+console.log(stringConvert);
 /*
 Task 1d - Multiply
  
